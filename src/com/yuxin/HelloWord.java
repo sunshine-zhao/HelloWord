@@ -2,7 +2,7 @@ package com.yuxin;
 
 public class HelloWord {
     public static void main(String[] args) {
-        System.out.println("Hello  Worll4ld!");
+        System.out.println("Hello  Worll4leed!");
         ClassLoader contextClassLoader = Thread.currentThread().getContextClassLoader();
 //        Thread.currentThread().setContextClassLoader();
     }
