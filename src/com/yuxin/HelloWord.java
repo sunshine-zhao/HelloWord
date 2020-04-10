@@ -8,10 +8,10 @@ import java.util.StringTokenizer;
 
 public class HelloWord {
     public static void main(String[] args) {
-        System.out.println("Hello  Worll4leed!");
+        System.out.println("Hello  Worll4leeds!");
         ClassLoader contextClassLoader = Thread.currentThread().getContextClassLoader();
 //        Thread.currentThread().setContextClassLoader();
-        String str="asd,a,d,c,d,e,f";
+        String str="asd,a,d,c,d,e,f,aa,hh";
         StringTokenizer tokenizer = new StringTokenizer(str,",",true);
         while(tokenizer.hasMoreTokens()){
             System.out.println(tokenizer.nextToken());
